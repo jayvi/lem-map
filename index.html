@@ -1,0 +1,961 @@
+<!DOCTYPE HTML>
+<!--[if IEMobile 7 ]><html class="no-js iem7" manifest="default.appcache?v=1"><![endif]-->
+<!--[if lt IE 7 ]><html class="no-js ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8" lang="en"><![endif]-->
+<!--[if IE 9 ]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if IE 10 ]><html class="no-js ie10" lang="en"><![endif]-->
+<!--[if IE 11 ]><html class="no-js ie11" lang="en"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+	<!-- Meta -->
+	<title>Lemuria World</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="keywords"
+		content="lemur finance">
+	<meta name="copyright" content="">
+	<meta name="publisher" content="">
+	<link rel="shortcut icon" href="" />
+	<meta name="description"
+		content="">
+	<meta property="og:title" content="Lemur Fina" />
+	<meta property="og:description"
+		content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:image" content="" />
+
+	<!-- fonts -->
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- styles -->
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" />
+	<!-- scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/jquery_cookie.js"></script>
+	<script src="js/jquery.mapbox.js"></script>
+	<script src="js/jquery.mousewheel.js"></script>
+	<script src="js/scripts.js"></script>
+
+<style>
+	 .buyN {
+            color: #fabd2b !important;
+            background: #202020;
+            border-radius: 5px;
+        }
+	   .buyNowT {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            width: 300px;
+            border-radius: 3px;
+            font-weight: 900;
+            color: black;
+            background-image: url(./img/buy.png);
+            background-size: cover;
+            height: 150px;
+            background-repeat: no-repeat;
+            padding: 2.1em 0 0 2em;
+            font-size: 27px;
+            font-family: matizregular;
+        }
+
+	  .matiz {
+            font-family: matizregular;
+        }
+	       .navbar-light .navbar-nav .nav-link {
+            color: rgba(0, 0, 0, .5);
+            font-family: matizregular, sans-serif;
+            color: black;
+			font-weight: 900;
+        }
+</style>
+
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light " style="    background:white;">
+		<a class="navbar-brand" href="/">
+			<img src="./lem_logo.png" style="width: 125px;;" />
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="http://lemur.finance/">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://lemur.finance/#howtobuy">How to Buy</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " title="Comin Soon" href="/lemuria">Lemuria</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://lemur.finance/story">Story</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" title="Comin Soon" href="http://astro.lemur.finance/">Game</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://lemur.finance/#tokenomics">Tokenomics</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://lemur.finance/#roadmapl">Road Map</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						More
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item"
+							href="https://bscscan.com/token/0xc35f46aAEb8aD17bCbAa78c03540FEffa44790Cb/"
+							target="_blank">Binance Chain</a>
+						<a class="dropdown-item"
+							href="https://bscscan.com/tx/0xed781d03933e4d6a609232b04162032412da98b6bcfe08728feb6f363a88f76a"
+							target="_blank">LP Burn</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item"
+							href="https://bscscan.com/tx/0xa07f2f719642b155649856ad878b57f894e3680d758b7b2f0ee60364d3d19146"
+							target="_blank">Proof of Ownership</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link buyN text-center" href="#">Buy Now</a>
+				</li>
+			</ul>
+			<div class="form-inline my-2 my-lg-0">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a style="    color: #807b7b;" href="https://twitter.com/FinanceLemur" target="_blank"
+							class="twitter-follow-button nav-link" data-show-count="false"> <i
+								class="fab fa-twitter"></i> <span class="handle"></span></a>
+					</li>
+					<li class="nav-item active">
+
+						<a style="    color: #807b7b;" href="https://t.me/lemurfinance" target="_blank"
+							class="twitter-follow-button nav-link" data-show-count="false"><i
+								class="fab fa-telegram"></i> <span class="handle"></span></a>
+					</li>
+					<li class="nav-item active">
+						<a style="    color: #807b7b;" href="https://lemurfinance.medium.com/" target="_blank"
+							class="twitter-follow-button nav-link" data-show-count="false"><i class="fab fa-medium"></i>
+							<span class="handle"></span></a>
+					</li>
+					<li class="nav-item active">
+						<a style="    color: #807b7b;    " href="https://www.reddit.com/r/LemurFinance/" target="_blank"
+							class="twitter-follow-button nav-link" data-show-count="false"><i
+								class="fab fa-reddit-alien"></i> <span class="handle"></span></a>
+					</li>
+					<li class="nav-item active">
+						<a style="     color: #807b7b;   " href="https://www.facebook.com/Lemur.Finance/"
+							target="_blank" class="twitter-follow-button nav-link" data-show-count="false"><i
+								class="fab fa-facebook"></i> <span class="handle"></span></a>
+					</li>
+					<li class="nav-item active">
+						<a style="     color: #807b7b;   "
+							href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xc35f46aAEb8aD17bCbAa78c03540FEffa44790Cb"
+							target="_blank" class="twitter-follow-button nav-link" data-show-count="false">
+							<img style="width: 18px;    opacity: 0.8;
+					filter: grayscale(1);" src="./pancake.png" /></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="loading-wrapper">
+		<div class="IE-message">
+			<div class="inside">
+				<h2>Whoops Lemura is not built for your browser</h2>
+				<p class="intro-text">Please use Chrome Opera or Firefox.</p>
+			</p>
+			</div>
+		</div>
+
+		
+		<div class="loading-text">
+			<img src="./lem_logo.png"/>
+			<h2>wait we loading the Lemuria World for you...</h2>
+		</div>
+
+		
+	</div><!-- end loading wrapper -->
+
+	<div class="loading-nightmode">
+		<div class="inside">
+			<h2>Loading Nighttime</h2>
+		</div>
+	</div>
+
+	<div class="welcome desktop show">
+		<div class="clickable"></div>
+		<div class="window one show">
+			<a class="close" href="#">x</a>
+			<div class="content">
+				<h1 title="Lemuria World"><img class="lem-logo" src="./images/logo_w.png" alt=""></h1>
+
+				<h2 class="sub-head">How much do you know about the LEMUR?</h2>
+				<p class="intro-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus accusantium inventore asperiores ipsa minima distinctio harum sequi dolorum velit repellat quaerat doloremque esse expedita vel ipsum, facere, cumque quas praesentium?</p>
+				<p class="intro-text last">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab beatae perferendis eligendi velit consectetur facilis natus veritatis ea, incidunt iste doloremque vero voluptatem nesciunt voluptatibus illum architecto repellat. Impedit!.</p><br>
+			</div>
+			<p>
+				<a class="cta one" href="#">Find out how</a>
+			</p>
+			<p>
+				<div class="dots">
+					<div class="dot one live"></div>
+					<div class="dot two"></div>
+					<div class="dot three"></div>
+					<div class="dot four"></div>
+				</div>
+			</p>
+		</div>
+		<!-- window 2 -->
+		<div class="window two">
+			<a class="close" href="#">x</a>
+			<div class="content">
+				<h2 class="sub-head">SOme other title</h2>
+				<p class="intro-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam odio repellendus consectetur vel mollitia. Corporis neque quisquam ipsa incidunt dolorum ad earum! Aliquam maxime magnam eius assumenda reiciendis! Voluptate, neque!</p>
+				<img class="body-parts-img" src="./lem_logo.png">
+			</div>
+			<p>
+				<a class="cta two" href="#">Next</a>
+			</p>
+			<p>
+				<div class="dots">
+					<div class="dot one"></div>
+					<div class="dot two live"></div>
+					<div class="dot three"></div>
+					<div class="dot four"></div>
+				</div>
+			</p>
+		</div>
+		<!-- window three -->
+		<div class="window three">
+			<a class="close" href="#">x</a>
+			<div class="content">
+				<h2 class="sub-head">Other Title</h2>
+				<p class="intro-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus quae voluptatibus voluptates quo optio aut laudantium nihil. Maxime, qui! Unde, distinctio tenetur pariatur doloremque provident aspernatur! Sed fugiat vel accusantium.</p>
+				<img class="team-gb-img" src="./lem_logo.png">
+			</div>
+			<p>
+				<a class="cta three" href="#">Next</a>
+			</p>
+			<p>
+				<div class="dots">
+					<div class="dot one"></div>
+					<div class="dot two"></div>
+					<div class="dot three live"></div>
+					<div class="dot four"></div>
+				</div>
+			</p>
+		</div>
+		<!-- window four -->
+		<div class="window four">
+			<a class="close" href="#">x</a>
+			<div class="content">
+				<h2 class="sub-head">ENd Title</h2>
+				<p class="intro-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore accusamus necessitatibus est accusantium, minima blanditiis quam, cumque excepturi sapiente praesentium sequi ullam assumenda aliquid porro fuga! Pariatur et possimus debitis.</p>
+				<img class="running-man-img" src="./lem_logo.png">
+			</div>
+			<p>
+				<a id="cta" class="cta four" href="#">Done - Now let's explore!</a>
+			</p>
+			<p>
+				<div class="dots">
+					<div class="dot one"></div>
+					<div class="dot two"></div>
+					<div class="dot three"></div>
+					<div class="dot four live"></div>
+				</div>
+			</p>
+		</div>
+	</div>
+
+	<div class="welcome mobile">
+		<div class="window">
+			<img class="digger" src="./lem_logo.png">
+			<h2 class="sub-head">Whoops! We not support mobile at the moment</h2>
+			<p class="intro-text">To explore the interactive map please switch to Desktop.</p>
+			<a class="cta"
+				href="">Back to home</a></p>
+		</div>
+	</div>
+
+
+	<div class="mapwrapper">
+		<div id="viewport2">
+			<div class="map-3"
+				style="background: url(images/lem-map-3.jpg) no-repeat; height: 1781px; width: 2500px; font-family: source-code-pro, sans-serif;">
+				<div class="tt-wrapper mozy">
+
+				</div>
+
+				<div class="tt-wrapper plane">
+					<div class="plane-shadow"></div>
+					<div class="plane-light"></div>
+					<div class="plane-light-two"></div>
+				</div>
+
+
+				<div class="tt-wrapper boat-1">
+					<div class="inside"></div>
+				</div>
+				<div class="tt-wrapper boat-3">
+					<div class="inside"></div>
+				</div>
+				<div class="tt-wrapper boat-4">
+					<div class="inside"></div>
+				</div>
+				<div class="tt-wrapper macaw"></div>
+				<div class="tt-wrapper macaw-two"></div>
+
+
+
+
+
+
+				<div class="tt-wrapper christ-redeemer">
+					<div class="dyk">
+						<span class="tooltip">
+							<div class="title">
+								<h3>Kingtoshi Lemuroto</h3>
+							</div>
+							<p class="tooltip-info">
+								Rumoured to be a descendant of Bitcoin developer Satoshi Nakamoto, our own Kingtoshi
+								Lemuroto created the LEM protocol and renounced ownership of the contract (check here).
+								<br />
+								This means nobody can interact with the contract anymore and cheat Lemurians, no more
+								LEM can be minted and no rug-pull is possible.
+
+							</p>
+							<p>
+								Like his ancestor, he decided to remain anonymous and is hiding somewhere in Lemuria’s
+								mountain.
+								<br />
+								Some says he is the Lemurian ninja and lives in a secret den where he perfects the art
+								of Safu.
+
+							</p>
+						</span>
+					</div>
+				</div>
+
+
+
+
+
+
+
+				<div class="tt-wrapper cloud-1"></div>
+				<div class="tt-wrapper cloud-2"></div>
+				<div class="tt-wrapper cloud-3"></div>
+				<div class="tt-wrapper cloud-4"></div>
+
+				<div class="tt-wrapper lembeach">
+					<div class="dyk">
+						<span class="tooltip">
+							<div class="title">
+								<h3>Paradise Beach & Town
+								</h3>
+							</div>
+							<p>Lemurians enjoy life. They automatically receive 2% of all transactions proportionate to
+								their holdings, earning them money while they do nothing but relax.</p>
+							<p>
+								They don’t need to trust others with their private keys nor pay gas fees, and have no
+								risk of impermanent loss.
+							</p>
+							<p>
+								Their only task is to party loud and invite other to join this great tribe!
+								I like to shill it shill it, you like to shill it shill it, we like to… shill it!
+
+							</p>
+						</span>
+					</div>
+				</div>
+
+
+
+				<div class="tt-wrapper volcano-2">
+					<div class="dyk">
+						<span class="tooltip">
+							<div class="title">
+								<h3>The Pit & Volcano</h3>
+							</div>
+							<p class="tooltip-info">
+								A 2% tax is distributed to all holders proportionate to their holdings.
+							</p>
+							<p class="tooltip-info">All new Lemurians or exiting ones are required to offer LEM into the
+								pit, after which the volcano immediately erupts and airdrops the offered coins to all
+								Lemurians!</p>
+						</span>
+					</div>
+				</div>
+
+				<div class="tt-wrapper lemBoat2"></div>
+				<div class="tt-wrapper lemBoat"></div>
+
+				<div class="tt-wrapper lemBoat-info">
+					<div class="dyk">
+						<span class="tooltip">
+							<div class="title">
+								<h3>Shill</h3>
+							</div>
+							<p>
+								i like to shill it shill it,<br/>
+								you like to shill it shill it...<br/>
+								we like to...<br/>
+								shill it!
+							</p>
+						</span>
+					</div>
+				</div>
+
+				<div class="tt-wrapper wave-2"></div>
+
+
+				<div class="tt-wrapper sambadrome">
+					<div class="dyk">
+						<span class="tooltip">
+							<div class="title">
+								<h3>The Blue Hole</h3>
+							</div>
+							<p class="tooltip-info"><span class="uppercase">A good economy needs liquidity that cannot
+									be tempered with.</p>
+							<p class="tooltip-info">The 3% tax creates LEM/BNB pool of liquidity that is locked forever.
+							</p>
+							<p>This provides an ever rising price floor, benefiting all Lemurians.</p>
+						</span>
+					</div>
+				</div>
+
+
+				<div class="tt-wrapper streetart">
+					<div class="dyk bottom">
+						<span class="tooltip">
+							<div class="title">
+								<h3>The LEM Whale</h3>
+							</div>
+							<p>
+								Kingtoshi Lemoruto sent 55% of the initial supply to the dead address (check <a
+									href="https://bscscan.com/tx/0xed781d03933e4d6a609232b04162032412da98b6bcfe08728feb6f363a88f76a"
+									target="_blank"><span>here</span></a>).
+
+							</p>
+							<p>
+								This will forever be the biggest whale in LEM ecosystem and a whale that never dumps!
+							</p>
+							<p>
+								As the 2% is distributed to holders proportionate to their holdings, the Lem Whale grows
+								exponentially, exerting hyper-deflationary pressure on the LEM economy.
+							</p>
+
+
+						</span>
+					</div>
+				</div>
+
+
+				<div class="tt-wrapper youth-arena">
+					<div class="dyk bottom">
+						<span class="tooltip">
+							<div class="title">
+								<h3>The LEM Whale</h3>
+							</div>
+							<p>
+								Kingtoshi Lemoruto sent 55% of the initial supply to the dead address (check <a
+									href="https://bscscan.com/tx/0xed781d03933e4d6a609232b04162032412da98b6bcfe08728feb6f363a88f76a"
+									target="_blank"><span>here</span></a>).
+
+							</p>
+							<p>
+								This will forever be the biggest whale in LEM ecosystem and a whale that never dumps!
+							</p>
+							<p>
+								As the 2% is distributed to holders proportionate to their holdings, the Lem Whale grows
+								exponentially, exerting hyper-deflationary pressure on the LEM economy.
+							</p>
+
+
+						</span>
+					</div>
+				</div>
+
+
+
+			</div>
+			<div class="map-2" style="height: 2494px; width: 3500px;">
+				<img src="images/lem-map-2.jpg" alt="" />
+				<div class="mapcontent">
+					<div class="tt-wrapper mozy">
+
+					</div>
+
+					<div class="tt-wrapper plane">
+						<div class="plane-shadow"></div>
+						<div class="plane-light"></div>
+						<div class="plane-light-two"></div>
+					</div>
+
+
+					<div class="tt-wrapper boat-1">
+						<div class="inside"></div>
+					</div>
+					<div class="tt-wrapper boat-3">
+						<div class="inside"></div>
+					</div>
+					<div class="tt-wrapper boat-4">
+						<div class="inside"></div>
+					</div>
+					<div class="tt-wrapper macaw"></div>
+					<div class="tt-wrapper macaw-two"></div>
+
+
+
+
+
+
+
+					<div class="tt-wrapper christ-redeemer">
+						<div class="dyk">
+							<span class="tooltip">
+								<div class="title">
+									<h3>Kingtoshi Lemuroto</h3>
+								</div>
+								<p class="tooltip-info">
+									Rumoured to be a descendant of Bitcoin developer Satoshi Nakamoto, our own Kingtoshi
+									Lemuroto created the LEM protocol and renounced ownership of the contract (check
+									here).
+									<br />
+									This means nobody can interact with the contract anymore and cheat Lemurians, no
+									more LEM can be minted and no rug-pull is possible.
+
+								</p>
+								<p>
+									Like his ancestor, he decided to remain anonymous and is hiding somewhere in
+									Lemuria’s mountain.
+									<br />
+									Some says he is the Lemurian ninja and lives in a secret den where he perfects the
+									art of Safu.
+
+								</p>
+							</span>
+						</div>
+					</div>
+
+
+
+
+
+
+
+
+
+
+					<div class="tt-wrapper cloud-1"></div>
+					<div class="tt-wrapper cloud-2"></div>
+					<div class="tt-wrapper cloud-3"></div>
+					<div class="tt-wrapper cloud-4"></div>
+
+					<div class="tt-wrapper lembeach">
+						<div class="dyk">
+							<span class="tooltip">
+								<div class="title">
+									<h3>Paradise Beach & Town
+									</h3>
+								</div>
+								<p>Lemurians enjoy life. They automatically receive 2% of all transactions proportionate
+									to their holdings, earning them money while they do nothing but relax.</p>
+								<p>
+									They don’t need to trust others with their private keys nor pay gas fees, and have
+									no risk of impermanent loss.
+								</p>
+								<p>
+									Their only task is to party loud and invite other to join this great tribe!
+									I like to shill it shill it, you like to shill it shill it, we like to… shill it!
+
+								</p>
+							</span>
+						</div>
+					</div>
+
+
+
+					<div class="tt-wrapper volcano-2">
+						<div class="dyk">
+							<span class="tooltip">
+								<div class="title">
+									<h3>The Pit & Volcano</h3>
+								</div>
+								<p class="tooltip-info">
+									A 2% tax is distributed to all holders proportionate to their holdings.
+								</p>
+								<p class="tooltip-info">All new Lemurians or exiting ones are required to offer LEM into
+									the pit, after which the volcano immediately erupts and airdrops the offered coins
+									to all Lemurians!</p>
+							</span>
+						</div>
+					</div>
+
+					<div class="tt-wrapper lemBoat2"></div>
+					<div class="tt-wrapper lemBoat"></div>
+
+					<div class="tt-wrapper lemBoat-info">
+						<div class="dyk">
+							<span class="tooltip">
+								<div class="title">
+									<h3>Paradise Beach & Town
+									</h3>
+								</div>
+								<p>Lemurians enjoy life. They automatically receive 2% of all transactions proportionate to
+									their holdings, earning them money while they do nothing but relax.</p>
+								<p>
+									They don’t need to trust others with their private keys nor pay gas fees, and have no
+									risk of impermanent loss.
+								</p>
+								<p>
+									Their only task is to party loud and invite other to join this great tribe!
+									I like to shill it shill it, you like to shill it shill it, we like to… shill it!
+	
+								</p>
+							</span>
+						</div>
+					</div>
+
+					<div class="tt-wrapper wave-2"></div>
+
+					<div class="tt-wrapper sambadrome">
+						<div class="dyk">
+							<span class="tooltip">
+								<div class="title">
+									<h3>The Blue Hole</h3>
+								</div>
+								<p class="tooltip-info"><span class="uppercase">A good economy needs liquidity that
+										cannot be tempered with.</p>
+								<p class="tooltip-info">The 3% tax creates LEM/BNB pool of liquidity that is locked
+									forever.</p>
+								<p>This provides an ever rising price floor, benefiting all Lemurians.</p>
+							</span>
+						</div>
+					</div>
+
+
+					<div class="tt-wrapper streetart">
+						<div class="dyk bottom">
+							<span class="tooltip">
+								<div class="title">
+									<h3>The LEM Whale</h3>
+								</div>
+								<p>
+									Kingtoshi Lemoruto sent 55% of the initial supply to the dead address (check <a
+										href="https://bscscan.com/tx/0xed781d03933e4d6a609232b04162032412da98b6bcfe08728feb6f363a88f76a"
+										target="_blank"><span>here</span></a>).
+
+								</p>
+								<p>
+									This will forever be the biggest whale in LEM ecosystem and a whale that never
+									dumps!
+								</p>
+								<p>
+									As the 2% is distributed to holders proportionate to their holdings, the Lem Whale
+									grows exponentially, exerting hyper-deflationary pressure on the LEM economy.
+								</p>
+
+
+							</span>
+						</div>
+					</div>
+
+
+					<div class="tt-wrapper youth-arena">
+						<div class="dyk bottom">
+							<span class="tooltip">
+								<div class="title">
+									<h3>The LEM Whale</h3>
+								</div>
+								<p>
+									Kingtoshi Lemoruto sent 55% of the initial supply to the dead address (check <a
+										href="https://bscscan.com/tx/0xed781d03933e4d6a609232b04162032412da98b6bcfe08728feb6f363a88f76a"
+										target="_blank"><span>here</span></a>).
+
+								</p>
+								<p>
+									This will forever be the biggest whale in LEM ecosystem and a whale that never
+									dumps!
+								</p>
+								<p>
+									As the 2% is distributed to holders proportionate to their holdings, the Lem Whale
+									grows exponentially, exerting hyper-deflationary pressure on the LEM economy.
+								</p>
+
+
+							</span>
+						</div>
+					</div>
+
+
+
+
+				</div>
+			</div>
+			<div class="map-1" style="height: 3206px; width: 4500px;">
+				<img src="images/lem-map.jpg" alt="" />
+				<div class="mapcontent">
+					<div class="tt-wrapper mozy">
+
+					</div>
+
+					<div class="tt-wrapper plane">
+						<div class="plane-shadow"></div>
+						<div class="plane-light"></div>
+						<div class="plane-light-two"></div>
+					</div>
+
+
+					<div class="tt-wrapper boat-1">
+						<div class="inside"></div>
+					</div>
+					<div class="tt-wrapper boat-3">
+						<div class="inside"></div>
+					</div>
+					<div class="tt-wrapper boat-4">
+						<div class="inside"></div>
+					</div>
+					<div class="tt-wrapper macaw"></div>
+					<div class="tt-wrapper macaw-two"></div>
+
+
+
+
+
+					<div class="tt-wrapper christ-redeemer">
+						<div class="dyk">
+							<span class="tooltip">
+								<div class="title">
+									<h3>Kingtoshi Lemuroto</h3>
+								</div>
+								<p class="tooltip-info">
+									Rumoured to be a descendant of Bitcoin developer Satoshi Nakamoto, our own Kingtoshi
+									Lemuroto created the LEM protocol and renounced ownership of the contract (check
+									here).
+									<br />
+									This means nobody can interact with the contract anymore and cheat Lemurians, no
+									more LEM can be minted and no rug-pull is possible.
+
+								</p>
+								<p>
+									Like his ancestor, he decided to remain anonymous and is hiding somewhere in
+									Lemuria’s mountain.
+									<br />
+									Some says he is the Lemurian ninja and lives in a secret den where he perfects the
+									art of Safu.
+
+								</p>
+							</span>
+						</div>
+					</div>
+
+
+
+
+
+
+
+
+
+					<div class="tt-wrapper cloud-1"></div>
+					<div class="tt-wrapper cloud-2"></div>
+					<div class="tt-wrapper cloud-3"></div>
+					<div class="tt-wrapper cloud-4"></div>
+
+					<div class="tt-wrapper lembeach">
+						<div class="dyk">
+							<span class="tooltip">
+								<div class="title">
+									<h3>Paradise Beach & Town
+									</h3>
+								</div>
+								<p>Lemurians enjoy life. They automatically receive 2% of all transactions proportionate
+									to their holdings, earning them money while they do nothing but relax.</p>
+								<p>
+									They don’t need to trust others with their private keys nor pay gas fees, and have
+									no risk of impermanent loss.
+								</p>
+								<p>
+									Their only task is to party loud and invite other to join this great tribe!
+									I like to shill it shill it, you like to shill it shill it, we like to… shill it!
+
+								</p>
+							</span>
+						</div>
+					</div>
+
+
+					<div class="tt-wrapper volcano-2">
+						<div class="dyk">
+							<span class="tooltip">
+								<div class="title">
+									<h3>The Pit & Volcano</h3>
+								</div>
+								<p class="tooltip-info">
+									A 2% tax is distributed to all holders proportionate to their holdings.
+								</p>
+								<p class="tooltip-info">All new Lemurians or exiting ones are required to offer LEM into
+									the pit, after which the volcano immediately erupts and airdrops the offered coins
+									to all Lemurians!</p>
+							</span>
+						</div>
+					</div>
+
+
+
+					<div class="tt-wrapper lemBoat2"></div>
+					<div class="tt-wrapper lemBoat"></div>
+
+					<div class="tt-wrapper lemBoat-info">
+						<div class="dyk">
+							<span class="tooltip">
+								<div class="title">
+									<h3>Paradise Beach & Town
+									</h3>
+								</div>
+								<p>Lemurians enjoy life. They automatically receive 2% of all transactions proportionate to
+									their holdings, earning them money while they do nothing but relax.</p>
+								<p>
+									They don’t need to trust others with their private keys nor pay gas fees, and have no
+									risk of impermanent loss.
+								</p>
+								<p>
+									Their only task is to party loud and invite other to join this great tribe!
+									I like to shill it shill it, you like to shill it shill it, we like to… shill it!
+	
+								</p>
+							</span>
+						</div>
+					</div>
+
+					<div class="tt-wrapper wave-2"></div>
+
+					<div class="tt-wrapper sambadrome">
+						<div class="dyk">
+							<span class="tooltip">
+								<div class="title">
+									<h3>The Blue Hole</h3>
+								</div>
+								<p class="tooltip-info"><span class="uppercase">A good economy needs liquidity that
+										cannot be tempered with.</p>
+								<p class="tooltip-info">The 3% tax creates LEM/BNB pool of liquidity that is locked
+									forever.</p>
+								<p>This provides an ever rising price floor, benefiting all Lemurians.</p>
+							</span>
+						</div>
+					</div>
+
+
+					<div class="tt-wrapper streetart">
+						<div class="dyk bottom">
+							<span class="tooltip">
+								<div class="title">
+									<h3>The LEM Whale</h3>
+								</div>
+								<p>
+									Kingtoshi Lemoruto sent 55% of the initial supply to the dead address (check <a
+										href="https://bscscan.com/tx/0xed781d03933e4d6a609232b04162032412da98b6bcfe08728feb6f363a88f76a"
+										target="_blank"><span>here</span></a>).
+
+								</p>
+								<p>
+									This will forever be the biggest whale in LEM ecosystem and a whale that never
+									dumps!
+								</p>
+								<p>
+									As the 2% is distributed to holders proportionate to their holdings, the Lem Whale
+									grows exponentially, exerting hyper-deflationary pressure on the LEM economy.
+								</p>
+
+
+							</span>
+						</div>
+					</div>
+
+
+
+
+					<div class="tt-wrapper youth-arena">
+						<div class="dyk bottom">
+							<span class="tooltip">
+								<div class="title">
+									<h3>The LEM Whale</h3>
+								</div>
+								<p>
+									Kingtoshi Lemoruto sent 55% of the initial supply to the dead address (check <a
+										href="https://bscscan.com/tx/0xed781d03933e4d6a609232b04162032412da98b6bcfe08728feb6f363a88f76a"
+										target="_blank"><span>here</span></a>).
+
+								</p>
+								<p>
+									This will forever be the biggest whale in LEM ecosystem and a whale that never
+									dumps!
+								</p>
+								<p>
+									As the 2% is distributed to holders proportionate to their holdings, the Lem Whale
+									grows exponentially, exerting hyper-deflationary pressure on the LEM economy.
+								</p>
+
+
+							</span>
+						</div>
+					</div>
+
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+
+
+	</div><!-- end mapwrapper -->
+
+
+	<!-- audio -->
+
+	<audio class="player" id="waterfall" preload="auto">
+		<source src="audio/big_waterfall.ogg" type="audio/ogg" />
+		<source src="audio/big_waterfall.mp3" type="audio/mp3" />
+	</audio>
+
+	<audio class="player" id="christ-redeemer" preload="auto">
+		<source src="audio/ninja_sound.mp3" type="audio/ogg" />
+		<source src="audio/ninja_sound.mp3" type="audio/mp3" />
+	</audio>
+	<audio class="player" id="stadium-1" preload="auto">
+		<source src="audio/big_waterfall.ogg" type="audio/ogg" />
+		<source src="audio/big_waterfall.mp3" type="audio/mp3" />
+	</audio>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
+
+</body>
+
+</html>
