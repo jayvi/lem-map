@@ -126,22 +126,22 @@ jQuery(document).ready(function ($) {
 		return false; 
 	});
 
-	//map viewports
-	$("#viewport").mapbox({mousewheel: true});
-	$("#viewport2").mapbox({ 
-		layerSplit: 2 //smoother transition for mousewheel 
-	}); 
-	$(".map-control a").click(function() { //control panel 
-		var viewport = $("#viewport2"); 
-		// this.className is same as method to be called 
-		if(this.className == "zoom" || this.className == "back") { 
-			viewport.mapbox(this.className, 2);//step twice 
-		} 
-		else { 
-			viewport.mapbox(this.className); 
-		} 
-		return false; 
-	});
+	// //map viewports
+	// $("#viewport").mapbox({mousewheel: true});
+	// $("#viewport2").mapbox({ 
+	// 	layerSplit: 2 //smoother transition for mousewheel 
+	// }); 
+	// $(".map-control a").click(function() { //control panel 
+	// 	var viewport = $("#viewport2"); 
+	// 	// this.className is same as method to be called 
+	// 	if(this.className == "zoom" || this.className == "back") { 
+	// 		viewport.mapbox(this.className, 2);//step twice 
+	// 	} 
+	// 	else { 
+	// 		viewport.mapbox(this.className); 
+	// 	} 
+	// 	return false; 
+	// });
 
 	//Sounds
 
