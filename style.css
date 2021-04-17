@@ -12727,6 +12727,16 @@ body.hide-tooltips .tt-wrapper.stad-glow {
   left: 28%;
   top: 29%;
 }
+
+.the_animator {
+  
+  -webkit-animation: mozy 30s infinite linear;
+  -moz-animation: mozy 30s infinite linear;
+  -o-animation: mozy 30s infinite linear;
+  -ms-animation: mozy 30s infinite linear;
+  animation: mozy 30s infinite linear;
+}
+
 .lemBoat2 {
   display: block;
   width: 7.5%;
@@ -12983,20 +12993,20 @@ body.hide-tooltips .tt-wrapper.stad-glow {
   left: 57%;
   top: 24.4%;
 }
-.mo-farah {
-  display: block;
+.little_whale {
+  display: none;
   width: 1.2%;
   height: 5.1%;
   left: 29.6%;
   top: 13.6%;
   background-color: transparent;
-  background-image: url("./stikersanimations-17.svg");
+  background-image: url("./finalwhale5.gif");
   -webkit-background-size: 200% auto;
   background-size: 106% auto;
   background-position: center left;
   background-repeat: no-repeat;
 }
-.mo-farah:hover {
+.little_whale:hover {
   background-position: 100% center;
 }
 .greg-rutherford {

@@ -84,7 +84,7 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light " style="    background:white;">
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top " style="    background:white;">
 		<a class="navbar-brand" href="/">
 			<img src="./lem_logo.png" style="width: 125px;;" />
 		</a>
@@ -196,11 +196,7 @@
 		
 	</div><!-- end loading wrapper -->
 
-	<div class="loading-nightmode">
-		<div class="inside">
-			<h2>Loading Nighttime</h2>
-		</div>
-	</div>
+	
 
 	<div class="welcome desktop show">
 		<div class="clickable"></div>
@@ -290,10 +286,10 @@
 	<div class="welcome mobile">
 		<div class="window">
 			<img class="digger" src="./lem_logo.png">
-			<h2 class="sub-head">Whoops! We not support mobile at the moment</h2>
-			<p class="intro-text">To explore the interactive map please switch to Desktop.</p>
+			<h2 class="sub-head">Whoops! this page is not available on mobile devices at the moment.</h2>
+			<p class="intro-text">Please use a desktop to enjoy Lemuria's map full features.</p>
 			<a class="cta"
-				href="">Back to home</a></p>
+				href="https://lemur.finance">Back to home</a></p>
 		</div>
 	</div>
 
@@ -301,7 +297,7 @@
 	<div class="mapwrapper">
 		<div id="viewport2">
 			<div class="map-3"
-				style="background: url(images/lem-map-3.jpg) no-repeat; height: 1781px; width: 2500px; font-family: source-code-pro, sans-serif;">
+				style="background: url(images/lem-map-3.jpg) no-repeat; height: 100%; width:100%; font-family: source-code-pro, sans-serif;background-size: 100%;">
 				<div class="tt-wrapper mozy">
 
 				</div>
@@ -393,6 +389,7 @@
 
 				<div class="tt-wrapper volcano-2">
 					<div class="dyk">
+						<img class="the_animator" src="./lighthouse.png" style="    width: 50px;display: block;"/>
 						<span class="tooltip">
 							<div class="title">
 								<h3>The Pit & Volcano</h3>
@@ -430,7 +427,8 @@
 
 
 				<div class="tt-wrapper sambadrome">
-					<div class="dyk">
+					<div class="dyk bottom">
+						<img class="the_animator" src="./lighthouse.png" style="    width: 50px;display: block;"/>
 						<span class="tooltip">
 							<div class="title">
 								<h3>The Blue Hole</h3>
@@ -444,36 +442,20 @@
 					</div>
 				</div>
 
-
-				<div class="tt-wrapper streetart">
-					<div class="dyk bottom">
-						<span class="tooltip">
-							<div class="title">
-								<h3>The LEM Whale</h3>
-							</div>
-							<p>
-								Kingtoshi Lemoruto sent 55% of the initial supply to the dead address (check <a
-									href="https://bscscan.com/tx/0xed781d03933e4d6a609232b04162032412da98b6bcfe08728feb6f363a88f76a"
-									target="_blank"><span>here</span></a>).
-
-							</p>
-							<p>
-								This will forever be the biggest whale in LEM ecosystem and a whale that never dumps!
-							</p>
-							<p>
-								As the 2% is distributed to holders proportionate to their holdings, the Lem Whale grows
-								exponentially, exerting hyper-deflationary pressure on the LEM economy.
-							</p>
-
-
-						</span>
-					</div>
+				<div class="tt-wrapper little_whale">
+					
 				</div>
+				
 
-
+				<div class="tt-wrapper little_whale">
+					
+				</div>
 				<div class="tt-wrapper youth-arena">
+					
 					<div class="dyk bottom">
+						<img class="the_animator" src="./whale.png" style="display: block;width: 100%;"/>
 						<span class="tooltip">
+							
 							<div class="title">
 								<h3>The LEM Whale</h3>
 							</div>
@@ -653,7 +635,9 @@
 							</span>
 						</div>
 					</div>
-
+					<div class="tt-wrapper little_whale">
+					
+					</div>
 
 					<div class="tt-wrapper streetart">
 						<div class="dyk bottom">
