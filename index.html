@@ -30,7 +30,10 @@
 	<meta property="og:image" content="" />
 
 	<!-- fonts -->
-
+	<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<!-- styles -->
@@ -39,6 +42,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
 		crossorigin="anonymous" />
+		
 	<!-- scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="js/modernizr.js"></script>
@@ -205,24 +209,17 @@
 			<div class="content">
 				<h1 title="Lemuria World"><img class="lem-logo" src="./images/logo_w.png" alt=""></h1>
 
-				<h2 class="sub-head">How much do you know about the LEMUR?</h2>
-				<p class="intro-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus accusantium inventore asperiores ipsa minima distinctio harum sequi dolorum velit repellat quaerat doloremque esse expedita vel ipsum, facere, cumque quas praesentium?</p>
-				<p class="intro-text last">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab beatae perferendis eligendi velit consectetur facilis natus veritatis ea, incidunt iste doloremque vero voluptatem nesciunt voluptatibus illum architecto repellat. Impedit!.</p><br>
+				<h2 class="sub-head">Welcome to Lemuria</h2>
+				<p class="intro-text">Explore the map with your cursor to uncover the 6 different regions!</p>
+				<p class="intro-text last">You can read more about each one in the story page (and hints at where to find them)</p><br>
 			</div>
 			<p>
-				<a class="cta one" href="#">Find out how</a>
-			</p>
-			<p>
-				<div class="dots">
-					<div class="dot one live"></div>
-					<div class="dot two"></div>
-					<div class="dot three"></div>
-					<div class="dot four"></div>
-				</div>
-			</p>
+				<a id="cta" class="cta four" href="#">Find out how</a>
+				
+			</p>		
 		</div>
 		<!-- window 2 -->
-		<div class="window two">
+		<!-- <div class="window two">
 			<a class="close" href="#">x</a>
 			<div class="content">
 				<h2 class="sub-head">SOme other title</h2>
@@ -240,9 +237,9 @@
 					<div class="dot four"></div>
 				</div>
 			</p>
-		</div>
+		</div> -->
 		<!-- window three -->
-		<div class="window three">
+		<!-- <div class="window three">
 			<a class="close" href="#">x</a>
 			<div class="content">
 				<h2 class="sub-head">Other Title</h2>
@@ -260,9 +257,9 @@
 					<div class="dot four"></div>
 				</div>
 			</p>
-		</div>
+		</div> -->
 		<!-- window four -->
-		<div class="window four">
+		<!-- <div class="window four">
 			<a class="close" href="#">x</a>
 			<div class="content">
 				<h2 class="sub-head">ENd Title</h2>
@@ -280,16 +277,19 @@
 					<div class="dot four live"></div>
 				</div>
 			</p>
-		</div>
+		</div> -->
 	</div>
 
 	<div class="welcome mobile">
 		<div class="window">
 			<img class="digger" src="./lem_logo.png">
-			<h2 class="sub-head">Whoops! this page is not available on mobile devices at the moment.</h2>
-			<p class="intro-text">Please use a desktop to enjoy Lemuria's map full features.</p>
+			<h2 class="sub-head">Whoops! This page is not available on mobile devices, please use a desktop to enjoy Lemuria's map. </h2>
+			<p class="intro-text">At the moment, only the story of Lemuria is available on mobiles.</p>
 			<a class="cta"
-				href="https://lemur.finance">Back to home</a></p>
+				href="https://lemur.finance">Back to home</a><br/><br/>
+				<a class="cta"
+				href="https://lemur.finance/story">Story of Lemuria</a>
+			</p>
 		</div>
 	</div>
 
@@ -297,7 +297,7 @@
 	<div class="mapwrapper">
 		<div id="viewport2">
 			<div class="map-3"
-				style="background: url(images/lem-map-3.jpg) no-repeat; height: 100%; width:100%; font-family: source-code-pro, sans-serif;background-size: 100%;">
+				style="background: url(images/lem-map-3.jpg) no-repeat; height: 100%; width:100%; font-family: source-code-pro, sans-serif;background-size: 100%;    background-color: #35c4e4;">
 				<div class="tt-wrapper mozy">
 
 				</div>
@@ -321,39 +321,35 @@
 				<div class="tt-wrapper macaw"></div>
 				<div class="tt-wrapper macaw-two"></div>
 
-
-
-
-
-
-				<div class="tt-wrapper christ-redeemer">
+				<div class="tt-wrapper cable-car-info">
 					<div class="dyk">
 						<span class="tooltip">
 							<div class="title">
-								<h3>Kingtoshi Lemuroto</h3>
+								<h3>This is Just Temporary</h3>
 							</div>
-							<p class="tooltip-info">
-								Rumoured to be a descendant of Bitcoin developer Satoshi Nakamoto, our own Kingtoshi
-								Lemuroto created the LEM protocol and renounced ownership of the contract (check here).
-								<br />
-								This means nobody can interact with the contract anymore and cheat Lemurians, no more
-								LEM can be minted and no rug-pull is possible.
-
-							</p>
-							<p>
-								Like his ancestor, he decided to remain anonymous and is hiding somewhere in Lemuria’s
-								mountain.
-								<br />
-								Some says he is the Lemurian ninja and lives in a secret den where he perfects the art
-								of Safu.
-
-							</p>
+							<p>Temporary view to not forget it exists</p>
 						</span>
 					</div>
 				</div>
 
 
 
+
+				<div class="tt-wrapper christ-redeemer">
+					<div class="dyk">
+						<a href="https://lemur.finance/story#king" target="_blank">
+							<img class="animate__animated animate__headShake animate__repeat-10 10" src="./images/ninja.svg" style="    width: 55%;display: block;"/>
+						</a>
+					
+					</div>
+				</div>
+
+
+				<div class="tt-wrapper lemwaterfall waterfall" >
+					<div class="dyk">
+						
+					</div>
+				</div>
 
 
 
@@ -365,7 +361,16 @@
 
 				<div class="tt-wrapper lembeach">
 					<div class="dyk">
-						<span class="tooltip">
+						<a href="https://lemur.finance/story#beach" target="_blank">
+						<img class="animate__animated animate__headShake animate__repeat-10 10" src="./images/beachparty.png" style="    width: 100%;
+						transform: rotate(
+					21deg
+					);
+					
+						display: block;
+					"/>
+					</a>
+						<!-- <span class="tooltip">
 							<div class="title">
 								<h3>Paradise Beach & Town
 								</h3>
@@ -381,7 +386,7 @@
 								I like to shill it shill it, you like to shill it shill it, we like to… shill it!
 
 							</p>
-						</span>
+						</span> -->
 					</div>
 				</div>
 
@@ -389,8 +394,10 @@
 
 				<div class="tt-wrapper volcano-2">
 					<div class="dyk">
-						<img class="the_animator" src="./lighthouse.png" style="    width: 50px;display: block;"/>
-						<span class="tooltip">
+						<a href="https://lemur.finance/story#volcano" target="_blank">
+							<img class="the_animator" src="./images/pitv.png" style="    width: 50%;display: block;"/>
+						</a>
+						<!-- <span class="tooltip">
 							<div class="title">
 								<h3>The Pit & Volcano</h3>
 							</div>
@@ -400,7 +407,7 @@
 							<p class="tooltip-info">All new Lemurians or exiting ones are required to offer LEM into the
 								pit, after which the volcano immediately erupts and airdrops the offered coins to all
 								Lemurians!</p>
-						</span>
+						</span> -->
 					</div>
 				</div>
 
@@ -428,8 +435,10 @@
 
 				<div class="tt-wrapper sambadrome">
 					<div class="dyk bottom">
-						<img class="the_animator" src="./lighthouse.png" style="    width: 50px;display: block;"/>
-						<span class="tooltip">
+						<a href="https://lemur.finance/story#bluehole" target="_blank">
+							<img class="the_animator" src="./lighthouse.png" style="    width: 50px;display: block;"/>
+						</a>
+						<!-- <span class="tooltip">
 							<div class="title">
 								<h3>The Blue Hole</h3>
 							</div>
@@ -438,7 +447,7 @@
 							<p class="tooltip-info">The 3% tax creates LEM/BNB pool of liquidity that is locked forever.
 							</p>
 							<p>This provides an ever rising price floor, benefiting all Lemurians.</p>
-						</span>
+						</span> -->
 					</div>
 				</div>
 
@@ -450,11 +459,13 @@
 				<div class="tt-wrapper little_whale">
 					
 				</div>
-				<div class="tt-wrapper youth-arena">
+				<div class="tt-wrapper whale-arena">
 					
 					<div class="dyk bottom">
-						<img class="the_animator" src="./whale.png" style="display: block;width: 100%;"/>
-						<span class="tooltip">
+						<a href="https://lemur.finance/story#whale" target="_blank">
+							<img class="animate__animated animate__pulse animate__infinite	infinite" src="./images/whale1.png" style="display: block;width: 100%;"/>
+						</a>
+						<!-- <span class="tooltip">
 							
 							<div class="title">
 								<h3>The LEM Whale</h3>
@@ -474,7 +485,7 @@
 							</p>
 
 
-						</span>
+						</span> -->
 					</div>
 				</div>
 
@@ -666,7 +677,7 @@
 					</div>
 
 
-					<div class="tt-wrapper youth-arena">
+					<div class="tt-wrapper whale-arena">
 						<div class="dyk bottom">
 							<span class="tooltip">
 								<div class="title">
@@ -880,7 +891,7 @@
 
 
 
-					<div class="tt-wrapper youth-arena">
+					<div class="tt-wrapper whale-arena">
 						<div class="dyk bottom">
 							<span class="tooltip">
 								<div class="title">
@@ -922,15 +933,15 @@
 	<!-- audio -->
 
 	<audio class="player" id="waterfall" preload="auto">
-		<source src="audio/big_waterfall.ogg" type="audio/ogg" />
-		<source src="audio/big_waterfall.mp3" type="audio/mp3" />
+		<source src="./audio/big_waterfall.ogg" type="audio/ogg" />
+		<source src="./audio/big_waterfall.mp3" type="audio/mp3" />
 	</audio>
 
 	<audio class="player" id="christ-redeemer" preload="auto">
 		<source src="audio/ninja_sound.mp3" type="audio/ogg" />
 		<source src="audio/ninja_sound.mp3" type="audio/mp3" />
 	</audio>
-	<audio class="player" id="stadium-1" preload="auto">
+	<audio class="player" id="" preload="auto">
 		<source src="audio/big_waterfall.ogg" type="audio/ogg" />
 		<source src="audio/big_waterfall.mp3" type="audio/mp3" />
 	</audio>
