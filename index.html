@@ -84,10 +84,15 @@
 			font-weight: 900;
         }
 </style>
-
+<script>
+	function changeScreenSize() {        
+        window.resizeTo(screen.width+300,screen.height+500)  ;
+		console.log(window.resizeTo(1335,966),screen.width+300,screen.height+500)
+    }
+	</script>
 </head>
 
-<body>
+<body onload="changeScreenSize()">
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top " style="    background:white;">
 		<a class="navbar-brand" href="/">
 			<img src="./lem_logo.png" style="width: 125px;;" />
