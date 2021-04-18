@@ -47,7 +47,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="js/modernizr.js"></script>
 	<script src="js/jquery_cookie.js"></script>
-	<!-- <script src="js/jquery.mapbox.js"></script> -->
+	<script src="js/jquery.mapbox.js"></script>
 	<script src="js/jquery.mousewheel.js"></script>
 	<script src="js/scripts.js"></script>
 
@@ -85,8 +85,8 @@
         }
 		.bgMap {
 			background: url(images/lem-map-31.png) no-repeat; 
-			height: 100%; 
-			width:100%; 
+		    width: 1200px;
+    height: 750px;
 			font-family: source-code-pro, sans-serif;
 			background-size: 90%;    
 			background-color: #35c4e4;
@@ -95,13 +95,16 @@
 			-moz-background-size: 90%;    
 			-ms-background-size:90%;    
 			-o-background-size: 90%;    
-			background-position: 0 7vh;
+			/* height: 1781px; width: 2500px; font-family: source-code-pro, sans-serif; position: absolute; display: block; left: -253px; top: -438px; */
+			/* background-position: 0 7vh; //3vh */
 		}
 </style>
 <script>
 	function changeScreenSize() {        
         window.resizeTo(screen.width+300,screen.height+500)  ;
-		console.log(window.resizeTo(1335,966),screen.width+300,screen.height+500)
+		$('.bgMap').css({"width": screen.width, "height": screen.height })
+
+		console.log($('.bgMap').css({"width": screen.width, "height": screen.height }))
     }
 	</script>
 </head>
@@ -315,7 +318,7 @@
 
 	<div class="mapwrapper">
 		<div id="viewport2">
-			<div class="map-3 bgMap"
+			<div class="map-3 bgMap current-map-layer"
 				style="">
 				<div class="tt-wrapper mozy">
 
