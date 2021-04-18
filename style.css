@@ -10989,10 +10989,8 @@ header {
   -moz-transition: all 0.3s 0.2s ease-in-out;
   -webkit-transition: all 0.3s 0.2s ease-in-out;
   -o-transition: all 0.3s 0.2s ease-in-out;
-  background: #ffcb39;
-  -webkit-box-shadow: 0px 29px 88px -30px rgba(0,0,0,0.9);
-  -moz-box-shadow: 0px 29px 88px -30px rgba(0,0,0,0.9);
-  box-shadow: 0px 29px 88px -30px rgba(0,0,0,0.9);
+  background: transparent;
+  
   z-index: 98;
 }
 .tt-wrapper div span.tooltip p {
@@ -11074,7 +11072,7 @@ header {
 .tt-wrapper div span.tooltip:after {
   bottom: -16px;
   margin-left: -20px;
-  border-top: 20px solid #ffcb39;
+  /* border-top: 20px solid #ffcb39; */
 }
 .tt-wrapper div.bottom span.tooltip {
   top: 130%;
@@ -11085,7 +11083,7 @@ header {
 .tt-wrapper div.bottom span.tooltip:after {
   top: -16px;
   margin-left: -20px;
-  border-bottom: 20px solid #f8b133;
+  /* border-bottom: 20px solid #f8b133; */
   border-top: none;
 }
 .tt-wrapper div.bottom:hover span.tooltip {
@@ -12357,7 +12355,7 @@ body.hide-tooltips .tt-wrapper.stad-glow {
 .boat-1 {
   display: block;
   width: 2%;
-  height: 4.7%;
+  height: 6.7%;
   left: 80%;
   top: 30%;
   background: url("./images/boat-1.svg") center center no-repeat transparent;
@@ -12373,7 +12371,7 @@ body.hide-tooltips .tt-wrapper.stad-glow {
 .boat-3 {
   display: block;
   width: 1.5%;
-  height: 4.4%;
+  height: 6.4%;
   left: 80%;
   top: 30%;
   background: url("./images/boat-1.svg") center center no-repeat transparent;
@@ -12408,7 +12406,7 @@ body.hide-tooltips .tt-wrapper.stad-glow {
 .boat-4 {
   display: block;
   width: 2%;
-  height: 4.7%;
+  height: 6.7%;
   left: 80%;
   top: 30%;
   background: url("./images/boat-1.svg") center center no-repeat transparent;
@@ -12700,7 +12698,7 @@ body.hide-tooltips .tt-wrapper.stad-glow {
   width: 13%;
   height: 7.2%;
   left: 29.4%;
-  top: 71.5%;
+  top: 66.5%;
 }
 .aquatics {
   display: block;
@@ -12738,7 +12736,7 @@ body.hide-tooltips .tt-wrapper.stad-glow {
   width: 7.5%;
   height: 9.6%;
   left: 75%;
-  top: 45%;
+  top: 40%;
   background: url(./images/lem_boat3.svg) center center no-repeat transparent;
   -webkit-background-size: 100% auto;
   background-size: 100% auto;

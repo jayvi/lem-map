@@ -52,6 +52,10 @@
 	<script src="js/scripts.js"></script>
 
 <style>
+	#audio_controller{
+		position: absolute;
+		bottom:0;
+	}
 	 .buyN {
             color: #fabd2b !important;
             background: #202020;
@@ -110,37 +114,40 @@
 </head>
 
 <body onload="changeScreenSize()">
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top " style="    background:white;">
+	<nav class="navbar navbar-expand-lg navbar-light " style="    background:white;">
 		<a class="navbar-brand" href="/">
-			<img src="./lem_logo.png" style="width: 125px;;" />
+			<img src="./lem_logo.png" style="    width: 105px;
+			padding: 0.5em;" />
 		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="http://lemur.finance/">Home</a>
+					<a class="nav-link" href="/">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="http://lemur.finance/#howtobuy">How to Buy</a>
+					<a class="nav-link" href="#howtobuy">How to Buy</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " title="Comin Soon" href="/lemuria">Lemuria</a>
+					<a class="nav-link " title="Lemuria World" href="/lemuria">Lemuria</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="http://lemur.finance/story">Story</a>
+					<a class="nav-link" href="/story">Story</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" title="Comin Soon" href="http://astro.lemur.finance/">Game</a>
+					<a class="nav-link " title="Lem invaders" href="https://invaders.lemur.finance">Game</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="http://lemur.finance/#tokenomics">Tokenomics</a>
+					<a class="nav-link" href="https://lemurfinance.medium.com/lemuria-9ec735e21abd" target="_blank">Tokenomics</a>
+					
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="http://lemur.finance/#roadmapl">Road Map</a>
+					<a class="nav-link" href="#roadmapl">Road Map</a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -165,7 +172,7 @@
 				</li>
 			</ul>
 			<div class="form-inline my-2 my-lg-0">
-				<ul class="navbar-nav mr-auto">
+				<ul id="socialz" class="navbar-nav mr-auto">
 					<li class="nav-item active">
 						<a style="    color: #807b7b;" href="https://twitter.com/FinanceLemur" target="_blank"
 							class="twitter-follow-button nav-link" data-show-count="false"> <i
@@ -179,12 +186,12 @@
 					</li>
 					<li class="nav-item active">
 						<a style="    color: #807b7b;" href="https://lemurfinance.medium.com/" target="_blank"
-							class="twitter-follow-button nav-link" data-show-count="false"><i class="fab fa-medium"></i>
-							<span class="handle"></span></a>
+							class="twitter-follow-button nav-link" data-show-count="false"><i
+								class="fab fa-medium"></i> <span class="handle"></span></a>
 					</li>
 					<li class="nav-item active">
-						<a style="    color: #807b7b;    " href="https://www.reddit.com/r/LemurFinance/" target="_blank"
-							class="twitter-follow-button nav-link" data-show-count="false"><i
+						<a style="    color: #807b7b;    " href="https://www.reddit.com/r/LemurFinance/"
+							target="_blank" class="twitter-follow-button nav-link" data-show-count="false"><i
 								class="fab fa-reddit-alien"></i> <span class="handle"></span></a>
 					</li>
 					<li class="nav-item active">
@@ -192,6 +199,17 @@
 							target="_blank" class="twitter-follow-button nav-link" data-show-count="false"><i
 								class="fab fa-facebook"></i> <span class="handle"></span></a>
 					</li>
+					<li class="nav-item active">
+						<a style="     color: #807b7b;   " href="https://www.tiktok.com/@lemurfinanceofficial/"
+							target="_blank" class="twitter-follow-button nav-link" data-show-count="false">
+								<i class="fab fa-tiktok"></i> <span class="handle"></span></a>
+					</li>
+					<li class="nav-item active">
+						<a style="     color: #807b7b;   " href="https://discord.gg/csyxqy4AC7/"
+							target="_blank" class="twitter-follow-button nav-link" data-show-count="false">
+								<i class="fab fa-discord"></i> <span class="handle"></span></a>
+					</li>
+					
 					<li class="nav-item active">
 						<a style="     color: #807b7b;   "
 							href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xc35f46aAEb8aD17bCbAa78c03540FEffa44790Cb"
@@ -236,7 +254,12 @@
 				<p class="intro-text last">You can read more about each one in the story page (and hints at where to find them)</p><br>
 			</div>
 			<p>
-				<a id="cta" class="cta four" href="#">Find out how</a>
+				<a id="cta" class="cta four" style="left: 40% !important;" href="#">Explore</a>
+				<a id=""style="left: 65% !important;" class="cta two" href="https://lemur.finance/story">Story</a>
+				
+				
+			</p>
+			<p>
 				
 			</p>		
 		</div>
@@ -346,10 +369,7 @@
 				<div class="tt-wrapper cable-car-info">
 					<div class="dyk">
 						<span class="tooltip">
-							<div class="title">
-								<h3>This is Just Temporary</h3>
-							</div>
-							<p>Temporary view to not forget it exists</p>
+							<a href="https://lemur.finance/story#village" target="_blank">		<img src="./images/village-05.png"  style="    width: 100%;"/></a>
 						</span>
 					</div>
 				</div>
@@ -360,9 +380,28 @@
 				<div class="tt-wrapper christ-redeemer">
 					<div class="dyk">
 						<a href="https://lemur.finance/story#king" target="_blank">
-							<img class="animate__animated animate__headShake animate__repeat-10 10" src="./images/ninja.svg" style="    width: 55%;display: block;"/>
+							<img class="" src="./images/ninja.svg" style="    width: 55%;display: block;"/>
 						</a>
-					
+						<span class="tooltip">
+							<a href="https://lemur.finance/story#beach" target="_blank">
+								<img class="animate__animated animate__headShake " src="./images/ninja2.png" style="    width: 100%;"/>
+							</a>
+							<!-- <div class="title">
+								<h3>Paradise Beach & Town
+								</h3>
+							</div>
+							<p>Lemurians enjoy life. They automatically receive 2% of all transactions proportionate to
+								their holdings, earning them money while they do nothing but relax.</p>
+							<p>
+								They don’t need to trust others with their private keys nor pay gas fees, and have no
+								risk of impermanent loss.
+							</p>
+							<p>
+								Their only task is to party loud and invite other to join this great tribe!
+								I like to shill it shill it, you like to shill it shill it, we like to… shill it!
+
+							</p> -->
+						</span>
 					</div>
 				</div>
 
@@ -392,8 +431,11 @@
 						display: block;
 					"/>
 					</a>
-						<!-- <span class="tooltip">
-							<div class="title">
+						<span class="tooltip">
+							<a href="https://lemur.finance/story#beach" target="_blank">
+								<img class="animate__animated animate__headShake animate__repeat-10 10" src="./images/lemuriastory-41.png" style="    width: 100%;"/>
+							</a>
+							<!-- <div class="title">
 								<h3>Paradise Beach & Town
 								</h3>
 							</div>
@@ -407,8 +449,8 @@
 								Their only task is to party loud and invite other to join this great tribe!
 								I like to shill it shill it, you like to shill it shill it, we like to… shill it!
 
-							</p>
-						</span> -->
+							</p> -->
+						</span>
 					</div>
 				</div>
 
@@ -417,10 +459,13 @@
 				<div class="tt-wrapper volcano-2">
 					<div class="dyk">
 						<a href="https://lemur.finance/story#volcano" target="_blank">
-							<img class="the_animator" src="./images/pitv.png" style="    width: 50%;display: block;"/>
+							<!-- <img class="the_animator" src="./images/pitv.png" style="    width: 50%;display: block;"/> -->
 						</a>
-						<!-- <span class="tooltip">
-							<div class="title">
+						<span class="tooltip">
+							<a href="https://lemur.finance/story#volcano" target="_blank">
+								<img class="the_animator" src="./images/lemuriastory-40.png" style="    width: 100%;display: block;"/>
+							</a>
+							<!-- <div class="title">
 								<h3>The Pit & Volcano</h3>
 							</div>
 							<p class="tooltip-info">
@@ -428,8 +473,8 @@
 							</p>
 							<p class="tooltip-info">All new Lemurians or exiting ones are required to offer LEM into the
 								pit, after which the volcano immediately erupts and airdrops the offered coins to all
-								Lemurians!</p>
-						</span> -->
+								Lemurians!</p> -->
+						</span>
 					</div>
 				</div>
 
@@ -438,16 +483,15 @@
 
 				<div class="tt-wrapper lemBoat-info">
 					<div class="dyk">
-						<span class="tooltip">
-							<div class="title">
-								<h3>Shill</h3>
-							</div>
+						<span class="tooltip" style="background-color: white;">
+							<a href="https://lemur.finance" target="_new" >
 							<p>
 								i like to shill it shill it,<br/>
 								you like to shill it shill it...<br/>
 								we like to...<br/>
 								shill it!
 							</p>
+							</a>
 						</span>
 					</div>
 				</div>
@@ -460,16 +504,19 @@
 						<a href="https://lemur.finance/story#bluehole" target="_blank">
 							<img class="the_animator" src="./lighthouse.png" style="    width: 50px;display: block;"/>
 						</a>
-						<!-- <span class="tooltip">
-							<div class="title">
+						<span class="tooltip">
+							<a href="https://lemur.finance/story#bluehole" target="_blank">
+								<img class="the_animator" src="./images/lemuriastory-39.png" style="    width: 100%;display: block;"/>
+							</a>
+							<!-- <div class="title">
 								<h3>The Blue Hole</h3>
 							</div>
 							<p class="tooltip-info"><span class="uppercase">A good economy needs liquidity that cannot
 									be tempered with.</p>
 							<p class="tooltip-info">The 3% tax creates LEM/BNB pool of liquidity that is locked forever.
 							</p>
-							<p>This provides an ever rising price floor, benefiting all Lemurians.</p>
-						</span> -->
+							<p>This provides an ever rising price floor, benefiting all Lemurians.</p> -->
+						</span>
 					</div>
 				</div>
 
@@ -485,11 +532,12 @@
 					
 					<div class="dyk bottom">
 						<a href="https://lemur.finance/story#whale" target="_blank">
-							<img class="animate__animated animate__pulse animate__infinite	infinite" src="./images/whale1.png" style="display: block;width: 100%;"/>
+							<img class="" src="./images/whale1.png" style="display: block;width: 100%;"/>
 						</a>
-						<!-- <span class="tooltip">
-							
-							<div class="title">
+						<span class="tooltip">
+							<a href="https://lemur.finance/story#whale" target="_blank">	<img class="animate__animated animate__pulse animate__infinite	infinite" src="./images/lemuriastory-38.png" style="display: block;width: 100%;"/>
+								</a>
+							<!-- <div class="title">
 								<h3>The LEM Whale</h3>
 							</div>
 							<p>
@@ -504,10 +552,10 @@
 							<p>
 								As the 2% is distributed to holders proportionate to their holdings, the Lem Whale grows
 								exponentially, exerting hyper-deflationary pressure on the LEM economy.
-							</p>
+							</p> -->
 
 
-						</span> -->
+						</span>
 					</div>
 				</div>
 
@@ -954,6 +1002,37 @@
 
 	<!-- audio -->
 
+	<audio id="myAudio">
+		<source src="./audio/tropical.ogg" type="audio/ogg">
+		<source src="./audio/tropical.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	  </audio>
+	  
+	  <p>Click the buttons to play or pause the audio.</p>
+	<div id="audio_controller">
+	  <button style="    border: none;
+	  background: #fa5a4a;
+	  color: white;
+	  padding: 10px;"  onclick="playAudio()" type="button"><i class="fas fa-play"></i></button>
+	  <button style="    border: none;
+	  background: #fa5a4a;
+	  color: white;
+	  padding: 10px;" onclick="pauseAudio()" type="button"><i class="fas fa-pause"></i></button> 
+	</div>
+	  <script>
+	  var x = document.getElementById("myAudio"); 
+	  
+	  function playAudio() { 
+		x.play(); 
+	  } 
+	  setTimeout(function(){
+		playAudio();
+	  },5000)
+	  function pauseAudio() { 
+		x.pause(); 
+	  } 
+	  </script>
+	  
 	<audio class="player" id="waterfall" preload="auto">
 		<source src="./audio/big_waterfall.ogg" type="audio/ogg" />
 		<source src="./audio/big_waterfall.mp3" type="audio/mp3" />
